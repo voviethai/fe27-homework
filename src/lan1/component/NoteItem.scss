@@ -1,0 +1,34 @@
+.note-item {
+    position: relative;
+    padding: 8px 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin: 15px;
+    text-align: start;
+    
+    .title {
+        font-weight: 500;
+
+    }
+    .content {
+
+    }
+    .btn-clear {
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 20px;
+        border: 1px solid #999;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .btn-clear:hover {
+        background-color: red;
+        cursor: pointer;
+    }
+}
